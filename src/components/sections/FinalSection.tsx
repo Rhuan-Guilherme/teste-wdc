@@ -2,20 +2,16 @@ import Image from 'next/image';
 
 export default function FinalSection() {
   return (
-    <section className="bg-blue-primary pt-16 px-7 md:px-10 lg:px-40 xl:px-50 2xl:px-105 flex flex-col lg:flex-row gap-5">
-      {/* Conteúdo textual */}
+    <div className="bg-blue-primary pt-16 px-7 md:px-10 lg:px-40 xl:px-50 2xl:px-105 flex flex-col lg:flex-row gap-5">
       <div>
-        <h2 className="text-4xl text-yellow-secondary">Quem vai te ensinar</h2>
-
-        <article className="space-y-5 mt-11 relative max-w-220">
-          {/* Separador decorativo */}
+        <h4 className="text-4xl text-yellow-secondary">Quem vai te ensinar</h4>
+        <div className=" mt-11 relative max-w-220 flex-1 flex flex-col justify-between gap-5">
           <Image
-            alt=""
+            alt="Separador"
             src="/svg/separetor-arrow.svg"
             width={10}
             height={755}
             className="absolute -left-10 top-30"
-            aria-hidden="true"
           />
 
           <p className="text-xl">
@@ -37,18 +33,17 @@ export default function FinalSection() {
             programas influentes na mídia, como o “Programa do Jô”, “Tonight
             Show” na CNN, “Se Joga”, também da Rede Globo, e vários outros.
           </p>
-        </article>
+        </div>
       </div>
 
-      {/* Imagem decorativa / ilustração */}
       <div className="relative lg:-top-30 flex justify-center lg:justify-end">
         <Image
           src="/images/mulher.png"
-          alt="Retrato de Cátia Damasceno"
+          alt="Logo pompa"
           width={700}
           height={700}
         />
       </div>
-    </section>
+    </div>
   );
 }

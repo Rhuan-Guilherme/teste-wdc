@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function FooterSection() {
   return (
-    <footer className="bg-yellow-primary p-14 xl:px-100 text-black flex flex-col gap-5 items-center md:flex-row md:justify-between ">
+    <footer className="bg-yellow-primary p-14 xl:px-100 text-black flex flex-col gap-5 items-center md:flex-row md:justify-between lg:-mt-30 scale-z-100">
       <p className="max-w-90 text-center md:text-start">
         <a
           href="mailto:suporte@mulheresbemresolvidas.com.br"
