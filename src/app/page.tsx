@@ -12,7 +12,7 @@ import FooterSection from '@/components/sections/FooterSection';
 import HeroSection from '@/components/sections/HeroSection';
 import MidCenterSection from '@/components/sections/MidCenterSection';
 import MidSection from '@/components/sections/MidSection';
-import Head from 'next/head';
+import './globals.css';
 
 export default function Home() {
   return (

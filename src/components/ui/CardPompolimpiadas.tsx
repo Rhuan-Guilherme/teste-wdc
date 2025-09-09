@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Separator from './Separetor';
 
 interface CardProps {
